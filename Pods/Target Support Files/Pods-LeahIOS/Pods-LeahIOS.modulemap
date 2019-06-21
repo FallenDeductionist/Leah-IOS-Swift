@@ -1,0 +1,6 @@
+framework module Pods_LeahIOS {
+  umbrella header "Pods-LeahIOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

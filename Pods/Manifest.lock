@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Nuke (7.6.3)
+  - SwiftyJSON (5.0.0)
+  - TransitionButton (0.5.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - Nuke
+  - SwiftyJSON
+  - TransitionButton
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Nuke
+    - SwiftyJSON
+    - TransitionButton
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Nuke: 44130e95e09463f8773ae4b96b90de1eba6b3350
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  TransitionButton: fb271583d9c9e4bb116b97103047e5157653f233
+
+PODFILE CHECKSUM: 9dd7e4f859c6a3ff1d4b6012b2f396016bf24dbd
+
+COCOAPODS: 1.7.0
