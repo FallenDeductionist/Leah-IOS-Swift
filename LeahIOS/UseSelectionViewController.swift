@@ -17,7 +17,7 @@ class UseSelectionViewController: CustomTransitionViewController {
     var imageArray = [UIImage]()
     
     @objc func imageTapped0(sender: UIImageView) {
-        print("fuck you 0")
+      
         let uri = APIvariables.shared.URLApi + "updateProfileType/" + APIvariables.shared.idUser
         let completeToken = "bearer " + APIvariables.shared.token
         let parameters = ["profileType":1]
@@ -27,7 +27,7 @@ class UseSelectionViewController: CustomTransitionViewController {
     }
     
     @objc func imageTapped1(sender: UIImageView) {
-        print("fuck you 1")
+       
         let uri = APIvariables.shared.URLApi + "updateProfileType/" + APIvariables.shared.idUser
         let completeToken = "bearer " + APIvariables.shared.token
         let parameters = ["profileType":2]
@@ -36,7 +36,7 @@ class UseSelectionViewController: CustomTransitionViewController {
     }
     
     @objc func imageTapped2(sender: UIImageView) {
-        print("fuck you 2")
+        
         let uri = APIvariables.shared.URLApi + "updateProfileType/" + APIvariables.shared.idUser
         let completeToken = "bearer " + APIvariables.shared.token
         let parameters = ["profileType":3]
@@ -45,7 +45,7 @@ class UseSelectionViewController: CustomTransitionViewController {
     }
     
     @objc func imageTapped3(sender: UIImageView) {
-        print("fuck you 3")
+        
         let uri = APIvariables.shared.URLApi + "updateProfileType/" + APIvariables.shared.idUser
         let completeToken = "bearer " + APIvariables.shared.token
         let parameters = ["profileType":4]
@@ -54,7 +54,7 @@ class UseSelectionViewController: CustomTransitionViewController {
     }
     
     @objc func imageTapped4(sender: UIImageView) {
-        print("fuck you 4")
+        
         let uri = APIvariables.shared.URLApi + "updateProfileType/" + APIvariables.shared.idUser
         let completeToken = "bearer " + APIvariables.shared.token
         let parameters = ["profileType":5]
@@ -111,7 +111,7 @@ class UseSelectionViewController: CustomTransitionViewController {
                 print("Success patch")
             }
             else{
-                print("WTF")
+          
             }
             
         }
